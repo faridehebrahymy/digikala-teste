@@ -1,7 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import keys
 from time import sleep
-import random
 driver = webdriver.Firefox("C:\Users\Parseh\datin_project\my_venv\geckodriver.exe")
 
 driver.get("https://www.digikala.com")
